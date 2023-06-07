@@ -12,7 +12,7 @@ function App() {
     <DataProvider>
       <Router>
         <Routes>
-          <Route exact path="/React-movieApi-fetch/" element={<Home />} />
+          <Route exact path="/Vite-React-Api-Fetch/" element={<Home />} />
           <Route path="movies/:id" element={<MovieDetails />} />
           <Route path="form/:id" element={<Form />} />
         </Routes>

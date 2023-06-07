@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/React-movieApi-fetch/",
+  base: "/Vite-React-Api-Fetch/",
   plugins: [react()],
 });
