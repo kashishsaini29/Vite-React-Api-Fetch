@@ -13,12 +13,12 @@ const movieDetails = () => {
   return (
         <>
     <div className="bg-black h-screen flex">
-      <div className="m-24">
+      <div className="flex justify-center items-center w-1/2  ">
         <img
           src={data.image.medium}
           alt="img"
           srcset=""
-          className="w-[40rem] h-[40rem] "
+          className="w-[50%] h-[50%] "
         />
       </div>
       <div className="text-white flex-col flex items-center  justify-center w-1/3">
@@ -33,7 +33,7 @@ const movieDetails = () => {
         <h1 className="flex text-4xl m-4 font-semibold ml-0">Summary</h1>
         <p className="text-2xl">{content}</p>
         <Link to={`/form/${id}`}>
-      <div className='bg-red-700 m-10 rounded-lg p-2 shadow-lg shadow-white'>
+      <div className='bg-red-700 m-6 rounded-lg p-2 shadow-lg shadow-white'>
         <button className='text-white text-2xl'>Book Ticket</button>
       </div>
         </Link>
